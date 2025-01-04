@@ -927,7 +927,7 @@ class RegisterService:
         token = cls.generate_invite_token(tenant, account)
 
         # send email
-        send_invite_member_mail_task.delay(
+        send_invite_member_mail_task(
             language=account.interface_language,
             to=email,
             token=token,
