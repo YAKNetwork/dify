@@ -43,7 +43,7 @@ export default function AccountAbout({
             <div className='text-[#1C64F2]'>
               {
                 IS_CE_EDITION
-                  ? <Link href={'https://github.com/langgenius/dify/blob/main/LICENSE'} target='_blank' rel='noopener noreferrer'>Open Source License</Link>
+                  ? <Link href={'https://github.com/YAKNetwork/dify/blob/main/LICENSE'} target='_blank' rel='noopener noreferrer'>Open Source License</Link>
                   : <>
                     <Link href='https://dify.ai/privacy' target='_blank' rel='noopener noreferrer'>Privacy Policy</Link>,<span> </span>
                     <Link href='https://dify.ai/terms' target='_blank' rel='noopener noreferrer'>Terms of Service</Link>
@@ -64,7 +64,7 @@ export default function AccountAbout({
           <div className='flex items-center'>
             <Link
               className={classNames(buttonClassName, 'mr-2')}
-              href={'https://github.com/langgenius/dify/releases'}
+              href={'https://github.com/YAKNetwork/dify/releases'}
               target='_blank' rel='noopener noreferrer'
             >
               {t('common.about.changeLog')}

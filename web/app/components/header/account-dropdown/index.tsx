@@ -138,7 +138,7 @@ export default function AppSelector({ isMobile }: IAppSelector) {
                         className={classNames(itemClassName, 'group justify-between',
                           active && 'bg-state-base-hover',
                         )}
-                        href='https://github.com/langgenius/dify/discussions/categories/feedbacks'
+                        href='https://github.com/YAKNetwork/dify/discussions/categories/feedbacks'
                         target='_blank' rel='noopener noreferrer'>
                         <div>{t('common.userProfile.communityFeedback')}</div>
                         <ArrowUpRight className='hidden w-[14px] h-[14px] text-text-tertiary group-hover:flex' />

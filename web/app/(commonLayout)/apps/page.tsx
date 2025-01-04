@@ -19,7 +19,7 @@ const AppList = () => {
         <h3 className='text-xl font-semibold leading-tight text-gradient'>{t('app.join')}</h3>
         <p className='mt-1 system-sm-regular text-text-tertiary'>{t('app.communityIntro')}</p>
         <div className='flex items-center gap-2 mt-3'>
-          <Link className={style.socialMediaLink} target='_blank' rel='noopener noreferrer' href='https://github.com/langgenius/dify'>
+          <Link className={style.socialMediaLink} target='_blank' rel='noopener noreferrer' href='https://github.com/YAKNetwork/dify'>
             <RiGithubFill className='w-5 h-5 text-text-tertiary' />
           </Link>
           <Link className={style.socialMediaLink} target='_blank' rel='noopener noreferrer' href='https://discord.gg/FngNHpbcY7'>
